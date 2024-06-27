@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../Logo";
-import appwriteService from 'C:/Users/TANISH VIJAY RAI/Desktop/Web Development/Mega Projects/BlogApp/src/appwrite/config.js'
+import appwriteService from '.../appwrite/config.js'
 
 function Footer() {
     return (
