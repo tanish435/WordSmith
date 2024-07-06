@@ -101,7 +101,7 @@ function Post() {
                 </div>
 
                 <div className="flex justify-center">
-                    <h1 className=" font-bold text-xl md:text-4xl my-3">{post.title}</h1>
+                    <h1 className=" font-bold text-xl md:text-4xl ml-3 my-3">{post.title}</h1>
                 </div>
 
                 <div className="mx-4 md:mx-20 text-sm md:text-lg">
