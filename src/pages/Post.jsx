@@ -82,7 +82,7 @@ function Post() {
 
                 <div className="flex justify-center items-center mt-9">
                     <div className=" object-cover flex justify-center w-[80%]">
-                        <img src={appwriteService.getFilePreview(post.featuredImage)} alt={post.title} className="lg:w-4/6 w-5/6 mb-6 sm:mb-10 object-contain max-h-96 object-center rounded-lg" />
+                        <img src={appwriteService.getFilePreview(post.featuredImage)} alt={post.title} className="lg:w-4/6 w-5/6 mb-6 sm:mb-10 object-contain max-h-96 object-center ml-2 rounded-lg" />
                     </div>
 
                     {isAuthor && (
